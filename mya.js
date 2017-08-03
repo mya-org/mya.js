@@ -1,14 +1,14 @@
 /**
- * @file: mod.js
+ * @file: mya.js
  * @author mya
  * ver: 1.0.0
- * update: 2017/08/01
- * https://github.com/mya-org/mod
+ * update: 2017/08/03
+ * https://github.com/mya-org/mya.js
  */
 
 /* eslint-disable no-unused-vars */
 
-// 模块加载器
+/* 模块加载器 */
 (function (global) {
     global.__M = global.__M || {};
 
@@ -258,7 +258,7 @@
     global.__M.require = require;
 })(this);
 
-// 简单的数据中心
+/* 简单的数据中心 */
 (function (global) {
     global.__M = global.__M || {};
 
